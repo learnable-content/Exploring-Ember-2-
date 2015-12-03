@@ -1,2 +1,2 @@
-# Exploring-Ember-2-
+# condtionals and loops and iterators oh my!
 
