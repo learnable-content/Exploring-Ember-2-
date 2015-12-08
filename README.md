@@ -1,46 +1,53 @@
-# Getting Started with the Ember-CLI
-This repo contains the code for [SitePoint Premium's](sitepoint.com/premium) screencast collection on using the ember-cli command line tool to build web applications using EmberJS.
+# First-app
 
-Below you can find supplementary resources for each video that will help you get a grasp on just exactly we are learning. In order to clone this code and follow along, you need to clone the repository, and then checkout to the correct branch. To do this, you can run the following command:
+This README outlines the details of collaborating on this Ember application.
+A short introduction of this app could easily go here.
 
-```
-git clone https://github.com/thomasjosephgreco/Exploring-Ember-2-
-git checkout <branch-name>
-``` 
+## Prerequisites
 
-## Video 1 - Getting Started with the Ember-CLI
-In this video, students become acquiainted with the ember-cli command line tool and see how it allows us to easily generate new parts of our application. As this series continues, we will be using the ember-cli tool to build robust web applications. 
+You will need the following things properly installed on your computer.
 
-```
-git clone https://github.com/thomasjosephgreco/Exploring-Ember-2-
-git checkout ember-cli-2
-ember serve
-```
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://www.ember-cli.com/)
+* [PhantomJS](http://phantomjs.org/)
 
+## Installation
 
-## Video 2 - A Look Inside Ember Templates with HTMLBars 
-This video provides a detailed look at Ember's change in compilers Handlebars to HTMLBars. 
+* `git clone <repository-url>` this repository
+* change into the new directory
+* `npm install`
+* `bower install`
 
-```
-git clone https://github.com/thomasjosephgreco/Exploring-Ember-2-
-git checkout From-HandleBars-To-HTMLBars
-ember serve
-```
+## Running / Development
 
+* `ember server`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-* [Article on HTMLBars](colintoh.com/blog/htmlbars)
-* [HTMLBars GitHub Repo](https://github.com/tildeio/htmlbars)
+### Code Generators
 
+Make use of the many generators for code, try `ember help generate` for more details
 
+### Running Tests
 
-## Video 3 - Conditionals and Iterators and Links. Oh my!
-Video three provides students with a deeper look at helper expressions in EmberJS. Specifically, we check out `{{each}}`, `{{if}}{{else}}`, and `{{action}}` helpers, As this series continues, we will be making use of these expressions to add more dynamic behavior to our web application. 
+* `ember test`
+* `ember test --server`
 
-```
-git clone https://github.com/thomasjosephgreco/Exploring-Ember-2-
-git checkout conditionals_and_loops_and_iterators_oh_my!
-ember serve
-```
+### Building
 
+* `ember build` (development)
+* `ember build --environment production` (production)
 
+### Deploying
+
+Specify what it takes to deploy your app.
+
+## Further Reading / Useful Links
+
+* [ember.js](http://emberjs.com/)
+* [ember-cli](http://www.ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
