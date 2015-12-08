@@ -1,0 +1,23 @@
+{{outlet}}
+<div class="jumbotron">
+	<h2 class="text-center">This is the examples page!</h2>
+</div>
+<div class="container">
+	{{#if showList}}
+	<h2 class="text-center"><code>showList</code> is set to true!</h2>
+	<button class="btn btn-default" {{action 'hide'}}>Hide</button>
+	<ul>
+		{{#each people as |person|}}
+		<li>{{person.name}}</li>
+		<ul>
+			<li>{{person.age}}</li>
+			<li>{{person.alias}}</li>
+			<li>{{person.hometown}}</li>
+		</ul>
+		{{/each}}
+	</ul>
+	{{else}}
+	<h2 class="text-center"><code>showList</code> is set to false!</h2>
+	<button class="btn btn-default" {{action 'show'}}>Show</button>
+	{{/if}}
+</div>
