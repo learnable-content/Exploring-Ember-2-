@@ -1,0 +1,22 @@
+{{outlet}}
+<div class="jumbotron">
+	<h2 class="text-center">Add a Todo!</h2>
+</div>
+<div class="row">
+	<div class="col-sm-10 col-sm-offset-1">
+<div class="panel panel-default">
+	<div class="panel-heading">
+	<label for="Todo">Add a Todo!</label>
+	{{input value=name placeholder="Add a Todo"}}
+    <button class="btn btn-default" {{action "createTodo"}}>Publish</button>	
+	</div>
+	{{#each model as |todo|}}
+		<div class="panel-body">
+		<ul>
+	<li>{{todo.name}}</li>
+	</ul>
+		</div>
+	{{/each}}
+		</div>
+	</div>
+</div>
