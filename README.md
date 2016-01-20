@@ -42,5 +42,16 @@ git checkout conditionals_and_loops_and_iterators_oh_my!
 ember serve
 ```
 
+## Video 4 - Building a Realtime Web App with Firebase's EmberFire Library
+In the latest installment of Getting Started with the Ember-Cli, students learn how to integrate Firebase into their project. For those new to Firebase, It is a cloud-service that provides developers with the ability to create full stack applications without having to write any server side code. To help show you how to harness the power of Firebase, Thomas Greco walks viewers through the process of creating a to-do list application that operates in real time.
+
+```
+git clone https://github.com/thomasjosephgreco/Exploring-Ember-2-
+git checkout emberfire
+ember serve
+```
+
+
+
 
 
