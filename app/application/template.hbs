@@ -1,7 +1,15 @@
 <nav class="navbar navbar-default">
-  <ul class="nav navbar-nav">
-      <li class="nav-item">{{#link-to "home"}}Home{{/link-to}}</li>
-      <li class="nav-item">{{#link-to "todo"}}Todo{{/link-to}}</li>
+	<div class="container-fluid">
+	<div class="navbar-header">
+  	<a class="navbar-brand">{{#link-to "blog"}}Blog{{/link-to}}</a>
+	</div>
+  <ul class="nav navbar-nav pull-right"> 
+      <li class="nav-item">{{#link-to "add-post"}}Add Post{{/link-to}}</li>
   </ul>
+  </div>
 </nav>
+<div class="jumbotron">
+	<h2 class="text-center">Reusable Components in EmberJS</h2>
+</div>
+
 {{outlet}}

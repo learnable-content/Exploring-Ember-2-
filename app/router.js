@@ -6,10 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('home');
-  this.route('todo', {
+  this.route('blog', {
   	path: '/'
   });
+  this.route('add-post');
 });
 
 export default Router;
